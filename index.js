@@ -44,14 +44,43 @@
 //     console.log("better luck next time")
 // }
 
-let marks=32;
-if((marks>33 && marks>=80) || !false){
-    console.log("you are passed")
-}
+// let marks=32;
+// if((marks>33 && marks>=80) || !false){
+//     console.log("you are passed")
+// }
 
-let num=12;
-if((num%3===0) && ((num+1==15 || num-1==11))){
-    console.log('safe')
+// let num=12;
+// if((num%3===0) && ((num+1==15 || num-1==11))){
+//     console.log('safe')  
+// }else{
+//     console.log("unsafe")
+// }
+
+let string="apple";
+if((string[0]=="a") && (string.length>3)){
+    console.log(`${string} starts with ${string[0]}`)
 }else{
-    console.log("unsafe")
+    console.log("not a good string")
+}
+// alert(`you have not entered the correct text ${string}`)
+
+// if(fasle){ // undefined , nan, 0,-1,"apnacollege"
+//     console.log("it is true value")
+// }else{
+//     console.log("it has false values")
+// }
+//swirch statement
+
+let color="green";
+switch(color){
+    case "red":
+        console.log("Stop");
+        break;
+    case "yellow":
+        console.log("Slow down");
+        break;
+    case "green":
+        console.log("GO");
+        break;
+    default:console.log("You break the rule")
 }
