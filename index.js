@@ -19,15 +19,39 @@
 // }
 
 //nested if-else
-let days=3;
-switch(days){
-    case 1:console.log("Monday");
-    break;
-    case 2:console.log("Tuesday");
-    break;
-    case 3:console.log("wednesday");
-    break;
-    case 4:console.log("Thursday") ;
-    break;
-    default:console.log("no time left")
+// let days=3;
+// switch(days){
+//     case 1:console.log("Monday");
+//     break;
+//     case 2:console.log("Tuesday");
+//     break;
+//     case 3:console.log("wednesday");
+//     break;
+//     case 4:console.log("Thursday") ;
+//     break;
+//     default:console.log("no time left")
+// }
+
+//nested if-else
+// if(marks>=45){
+//     console.log("pass")
+//     if(marks>=80){
+//         console.log("Outstanding")
+//     }else{
+//         console.log('grade :A')
+//     }
+// }else{
+//     console.log("better luck next time")
+// }
+
+let marks=32;
+if((marks>33 && marks>=80) || !false){
+    console.log("you are passed")
+}
+
+let num=12;
+if((num%3===0) && ((num+1==15 || num-1==11))){
+    console.log('safe')
+}else{
+    console.log("unsafe")
 }
