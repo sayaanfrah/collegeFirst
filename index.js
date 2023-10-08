@@ -114,6 +114,14 @@ if((string[0]=="a") && (string.length>3)){
 // }
 // alert("pLease enter after this")
 // prompt("what is your name")
-console.log("after this error")
-console.error("error")
-console.warn("warnign msg")
+// console.log("after this error")
+// console.error("error")
+// console.warn("warnign msg")
+
+// let firstNames=prompt("enter yor name");
+// console.log(firstNames);
+
+// let firstName=prompt("enter your first Name");
+// let lastname=prompt("Enter Your last name");
+// console.log(firstName + " "+ lastname);
+
