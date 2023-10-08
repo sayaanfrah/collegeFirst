@@ -121,7 +121,7 @@ if((string[0]=="a") && (string.length>3)){
 // let firstNames=prompt("enter yor name");
 // console.log(firstNames);
 
-// let firstName=prompt("enter your first Name");
-// let lastname=prompt("Enter Your last name");
-// console.log(firstName + " "+ lastname);
+ let firstName=prompt("enter your first Name");
+ let lastname=prompt("Enter Your last name");
+alert(`Welcome ${firstName}  ${lastname}`);
 
