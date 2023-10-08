@@ -69,18 +69,51 @@ if((string[0]=="a") && (string.length>3)){
 // }else{
 //     console.log("it has false values")
 // }
-//swirch statement
+//switch statement
 
-let color="green";
-switch(color){
-    case "red":
-        console.log("Stop");
-        break;
-    case "yellow":
-        console.log("Slow down");
-        break;
-    case "green":
-        console.log("GO");
-        break;
-    default:console.log("You break the rule")
-}
+// let color="green";
+// switch(color){
+//     case "red":
+//         console.log("Stop");
+//         break;
+//     case "yellow":
+//         console.log("Slow down");
+//         break;
+//     case "green":
+//         console.log("GO");
+//         break;
+//     default:console.log("You break the rule")
+// }
+
+// let day=4;
+// switch(day){
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     case 4:
+//         console.log("Thursday");
+//         break;
+//     case 5:
+//         console.log("Friday");
+//         break;
+//     case 6:
+//         console.log("Saturday");
+//         break;
+//     case 7:
+//         console.log("Sunday");
+//         break;
+//     default:
+//         console.log("Please input a correct imput")
+
+// }
+// alert("pLease enter after this")
+// prompt("what is your name")
+console.log("after this error")
+console.error("error")
+console.warn("warnign msg")
