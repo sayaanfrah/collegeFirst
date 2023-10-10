@@ -27,7 +27,7 @@ public class first {
                 System.out.println("Sunday");
                 break;
             default:
-                System.out.println("No  week listed ");
+                System.out.println("No  week listed please enter the correct format ");
 
         }
     }
