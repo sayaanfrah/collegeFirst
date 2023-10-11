@@ -1,0 +1,9 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    background-image: url(./download.png);
+}

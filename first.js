@@ -54,5 +54,6 @@ if(a>b&& a>c){
 }
 
 let first="     zero mile       ";
-
-
+let firstname="sayaan"
+console.log(firstname)
+so
