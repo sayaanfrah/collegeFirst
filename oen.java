@@ -44,15 +44,23 @@ public class oen {
     public static void main(String[] args) {
         int numbers[] = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
         int target = 19;
-        System.out.println(target + " is at index value  " + linearSearch(numbers, target));
-        // reversed(numbers);
-        // for (int i = 0; i < numbers.length; i++) {
-        // System.out.print(numbers[i] + " ");
-        // }
-        // System.out.println();
+        // System.out.println(target + " is at index value " + linearSearch(numbers,
+        // target));
+        // // reversed(numbers);
+        // // for (int i = 0; i < numbers.length; i++) {
+        // // System.out.print(numbers[i] + " ");
+        // // }
+        // // System.out.println();
 
-        largestSearch(numbers);
-        System.out.println("The largest number is " + largestSearch(numbers));
+        // largestSearch(numbers);
+        // System.out.println("The largest number is " + largestSearch(numbers));
+        int n = 4;
+        for (int i = 1; i <= 4; i++) {
+            for (int j = 1; j <= n - i + 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
     }
 

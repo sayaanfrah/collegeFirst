@@ -42,18 +42,20 @@
 
 //fifth
 
-let a=34;
-let b=45;
-let c=95;
-if(a>b&& a>c){
-    console.log("a is greatest",a)
-}else if(b>c && b>a){
-    console.log('b is greatest',b);
-}else{
-    console.log('c is great',c)
-}
+// let a=34;
+// let b=45;
+// let c=95;
+// if(a>b&& a>c){
+//     console.log("a is greatest",a)
+// }else if(b>c && b>a){
+//     console.log('b is greatest',b);
+// }else{
+//     console.log('c is great',c)
+// }
 
-let first="     zero mile       ";
-let firstname="sayaan"
-console.log(firstname)
-so
+// let first="     zero mile       ";
+// let firstname="sayaan"
+// console.log(firstname)
+//learning about the trim function  we have
+// after trim function
+
